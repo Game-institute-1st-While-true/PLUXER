@@ -37,3 +37,4 @@ hosEngine으로 만들어 졌습니다.
 !hosServer is not working. because need login server and DBA(db middleware - ex)redis), DB
 
 ## Documentation
+![howtoplay](https://github.com/Game-institute-1st-While-true/PLUXER/blob/main/Bin/PLUXER_how_to_play.png)
