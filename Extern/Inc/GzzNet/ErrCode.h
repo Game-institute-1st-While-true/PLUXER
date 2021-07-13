@@ -1,0 +1,16 @@
+#pragma once
+namespace gzz
+{
+	enum class GZZ_ERR : int
+	{
+		FAIL = 0,
+		SUCESS = 1,
+
+		INI_LOAD_FAIL,
+		CREATE_COMPLETION_PORT_FAIL,
+		CREATE_IO_WORKER_FAIL,
+		CREATE_ACCEPTER_FAIL,
+		CREATE_THREAD_FAIL,
+		SEND_QUEUE_IS_BUSY
+	}; 
+}

@@ -1,0 +1,12 @@
+
+Build/.vs/
+**/x64/
+Extern/Inc/fbxsdk/
+Extern/Inc/libxml2/
+Extern/Inc/fbxsdk.h
+Extern/Lib/libfbxsdk_x64D.lib
+Extern/Lib/libxml2_x64D.lib
+Extern/Lib/zlib_x64D.lib
+Extern/Lib/libfbxsdk_x64R.lib
+Extern/Lib/libxml2_x64R.lib
+Extern/Lib/zlib_x64R.lib

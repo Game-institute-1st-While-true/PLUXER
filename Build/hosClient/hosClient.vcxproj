@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{83057ae1-309d-4fe1-828f-1d7446130a6a}</ProjectGuid>
+    <RootNamespace>hosClient</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>..\..\Extern\Lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\Extern\Inc;..\..\Extern\Inc\pxshared;..\..\Extern\Inc\physx\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <TargetName>$(ProjectName)_$(PlatformTarget)D</TargetName>
+    <OutDir>$(SolutionDir)..\..\1_Executable\Ver_2\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>..\..\Extern\Lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\Extern\Inc;..\..\Extern\Inc\pxshared;..\..\Extern\Inc\physx\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <TargetName>$(ProjectName)_$(PlatformTarget)R</TargetName>
+    <OutDir>$(SolutionDir)..\..\1_Executable\$(SolutionName)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>..\..\Extern\Lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(LibraryPath);$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\Extern\Inc;..\..\Extern\Inc\pxshared;..\..\Extern\Inc\physx\include;..\..\Extern\Packets;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)_$(PlatformTarget)D</TargetName>
+    <OutDir>$(SolutionDir)..\..\1_Executable\Ver_2\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>..\..\Extern\Lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\Extern\Inc;..\..\Extern\Inc\pxshared;..\..\Extern\Inc\physx\include;..\..\Extern\Packets;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)_$(PlatformTarget)R</TargetName>
+    <OutDir>$(SolutionDir)..\..\1_Executable\Ver_2\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ArcadePlayer.h" />
+    <ClInclude Include="BossFrogAction.h" />
+    <ClInclude Include="BossFrogAttackArea.h" />
+    <ClInclude Include="BossFrogState.h" />
+    <ClInclude Include="BTNode.h" />
+    <ClInclude Include="CameraMove.h" />
+    <ClInclude Include="EnemyManager.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="LobbyEventSystem.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ArcadeNetworkEvent.h" />
+    <ClInclude Include="MeleeFrog.h" />
+    <ClInclude Include="MeleeFrogAction.h" />
+    <ClInclude Include="MeleeFrogAttackArea.h" />
+    <ClInclude Include="MeleeFrogState.h" />
+    <ClInclude Include="NoteInfo.h" />
+    <ClInclude Include="NoteManager.h" />
+    <ClInclude Include="PlayerAction.h" />
+    <ClInclude Include="PlayerAttack.h" />
+    <ClInclude Include="PlayerLookEnemy.h" />
+    <ClInclude Include="PlayerMove.h" />
+    <ClInclude Include="PlayerState.h" />
+    <ClInclude Include="Portal.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="ProjectileManager.h" />
+    <ClInclude Include="RangeFrogAction.h" />
+    <ClInclude Include="RangeFrogAttackArea.h" />
+    <ClInclude Include="RangeFrogState.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="ScriptFactory.h" />
+    <ClInclude Include="ShieldFrogAction.h" />
+    <ClInclude Include="ShieldFrogMeleeDetectZone.h" />
+    <ClInclude Include="ShieldFrogRangeDetectZone.h" />
+    <ClInclude Include="ShieldFrogState.h" />
+    <ClInclude Include="StageInCheck.h" />
+    <ClInclude Include="StageManager.h" />
+    <ClInclude Include="TestSystem.h" />
+    <ClInclude Include="ToxicFloor.h" />
+    <ClInclude Include="ToxicManager.h" />
+    <ClInclude Include="UIManager.h" />
+    <ClInclude Include="UserScriptList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArcadePlayer.cpp" />
+    <ClCompile Include="BossFrogAction.cpp" />
+    <ClCompile Include="BossFrogAttackArea.cpp" />
+    <ClCompile Include="BossFrogState.cpp" />
+    <ClCompile Include="BossNetBehaivorTree.cpp" />
+    <ClCompile Include="BTNode.cpp" />
+    <ClCompile Include="CameraMove.cpp" />
+    <ClCompile Include="EnemyManager.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="LobbyEventSystem.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ArcadeNetworkEvent.cpp" />
+    <ClCompile Include="MeleeFrog.cpp" />
+    <ClCompile Include="MeleeFrogAction.cpp" />
+    <ClCompile Include="MeleeFrogAttackArea.cpp" />
+    <ClCompile Include="MeleeFrogState.cpp" />
+    <ClCompile Include="NoteInfo.cpp" />
+    <ClCompile Include="NoteManager.cpp" />
+    <ClCompile Include="PlayerAction.cpp" />
+    <ClCompile Include="PlayerAttack.cpp" />
+    <ClCompile Include="PlayerLookEnemy.cpp" />
+    <ClCompile Include="PlayerMove.cpp" />
+    <ClCompile Include="PlayerState.cpp" />
+    <ClCompile Include="Portal.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="ProjectileManager.cpp" />
+    <ClCompile Include="RangeFrogAction.cpp" />
+    <ClCompile Include="RangeFrogAttackArea.cpp" />
+    <ClCompile Include="RangeFrogState.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="ScriptFactory.cpp" />
+    <ClCompile Include="ShieldFrogAction.cpp" />
+    <ClCompile Include="ShieldFrogMeleeDetectZone.cpp" />
+    <ClCompile Include="ShieldFrogRangeDetectZone.cpp" />
+    <ClCompile Include="ShieldFrogState.cpp" />
+    <ClCompile Include="StageInCheck.cpp" />
+    <ClCompile Include="StageManager.cpp" />
+    <ClCompile Include="TestSystem.cpp" />
+    <ClCompile Include="ToxicFloor.cpp" />
+    <ClCompile Include="ToxicManager.cpp" />
+    <ClCompile Include="UIManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hosClient.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="E:\Downloads\icon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

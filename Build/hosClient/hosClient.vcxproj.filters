@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{59cb68fc-41b1-4fcf-9528-12e354a257ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{27d739e2-1ad7-4fab-a346-71dedd23ae67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\0_LobbyScene">
+      <UniqueIdentifier>{dbf8fbb7-f348-444c-b17a-f128b3a728cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene">
+      <UniqueIdentifier>{a3e409f2-c03f-491d-b3d3-c14a0f98f613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\UIManager">
+      <UniqueIdentifier>{b2469eca-5695-4a12-bcfd-edb7a82c5cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\Player">
+      <UniqueIdentifier>{8d9de208-47fe-4efa-bee2-7f7690c44344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\GameManager">
+      <UniqueIdentifier>{c682995e-7c82-4e83-a666-48b9949ed440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\CameraMove">
+      <UniqueIdentifier>{8a5ff55c-8004-4ffc-a855-94382af910b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\2_ArcadeScene">
+      <UniqueIdentifier>{f82f54ec-d528-44d3-94e1-29f5cedf0212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\2_ArcadeScene\NetworkEvent">
+      <UniqueIdentifier>{d21a986c-f186-41f6-98c0-000c05008122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\Enemy">
+      <UniqueIdentifier>{30782d76-7518-4775-96d2-716f7de18112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\Enemy\ShieldFrog">
+      <UniqueIdentifier>{1ab291a0-3db4-4d67-a0ad-f43f734350e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\Enemy\Manager">
+      <UniqueIdentifier>{f750629f-9b74-4c54-9321-84ec19346501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\Enemy\Projectile">
+      <UniqueIdentifier>{baf4f5cd-4cb1-423a-b606-6b8dd2e5dd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\Enemy\MeleeFrog">
+      <UniqueIdentifier>{5c4808b2-5ea5-4c02-a1ba-905afeed24af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\2_ArcadeScene\ArcadePlayer">
+      <UniqueIdentifier>{4272366e-7ca5-4eeb-b29f-81c2d5e696fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ETC">
+      <UniqueIdentifier>{a867019f-0444-48f8-ad19-7a3ba8ead44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ETC\BehaviorTree">
+      <UniqueIdentifier>{ae37d1d7-30db-4828-adb8-45d326733521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ETC\Test">
+      <UniqueIdentifier>{1fcf7232-7dcd-49b7-a084-b537f970d2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\Enemy\BossFrog">
+      <UniqueIdentifier>{ab9e51db-7a35-4df9-a566-f24c107beeb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\Enemy\RangeFrog">
+      <UniqueIdentifier>{67434e09-c603-4056-8842-7e5a96936436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\Enemy\ToxicFloor">
+      <UniqueIdentifier>{5c37e38c-ecac-48fd-b1eb-29535a1000cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\Portal">
+      <UniqueIdentifier>{1d36ebcd-a487-47b7-95eb-efd2d7ff5586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\StageManager">
+      <UniqueIdentifier>{d221b777-7a68-40b1-8c7e-13274059e541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\NoteManager">
+      <UniqueIdentifier>{b0400fb4-d016-42bd-a8cb-de15e6ba64a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\StageManager\StageInCheck">
+      <UniqueIdentifier>{8acb3165-2103-4003-b507-5d445f1968be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\1_StoryScene\NoteManager\NoteInfo">
+      <UniqueIdentifier>{bf403a77-2d56-4a3c-be07-c9db0671fcbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\System">
+      <UniqueIdentifier>{bc8682a5-cab1-4bff-8112-5069904617c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\System\Factory">
+      <UniqueIdentifier>{47f4a0bb-883e-4b46-99a6-5e38709eb0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\System\SceneManagement">
+      <UniqueIdentifier>{a6e39356-8240-4600-a863-de38dc51600e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ScriptFactory.cpp">
+      <Filter>Script\System\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMove.cpp">
+      <Filter>Script\1_StoryScene\CameraMove</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteManager.cpp">
+      <Filter>Script\1_StoryScene\NoteManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BTNode.cpp">
+      <Filter>Script\ETC\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Script\1_StoryScene\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>Script\1_StoryScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Script\1_StoryScene\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSystem.cpp">
+      <Filter>Script\ETC\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Script\System\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAction.cpp">
+      <Filter>Script\1_StoryScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMove.cpp">
+      <Filter>Script\1_StoryScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldFrogAction.cpp">
+      <Filter>Script\1_StoryScene\Enemy\ShieldFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldFrogState.cpp">
+      <Filter>Script\1_StoryScene\Enemy\ShieldFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAttack.cpp">
+      <Filter>Script\1_StoryScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Script\1_StoryScene\Enemy\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Script\1_StoryScene\Enemy\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyEventSystem.cpp">
+      <Filter>Script\0_LobbyScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcadeNetworkEvent.cpp">
+      <Filter>Script\2_ArcadeScene\NetworkEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeFrogAction.cpp">
+      <Filter>Script\1_StoryScene\Enemy\MeleeFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeFrogState.cpp">
+      <Filter>Script\1_StoryScene\Enemy\MeleeFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldFrogMeleeDetectZone.cpp">
+      <Filter>Script\1_StoryScene\Enemy\ShieldFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldFrogRangeDetectZone.cpp">
+      <Filter>Script\1_StoryScene\Enemy\ShieldFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcadePlayer.cpp">
+      <Filter>Script\2_ArcadeScene\ArcadePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeFrogAttackArea.cpp">
+      <Filter>Script\1_StoryScene\Enemy\MeleeFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFrogAction.cpp">
+      <Filter>Script\1_StoryScene\Enemy\BossFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFrogState.cpp">
+      <Filter>Script\1_StoryScene\Enemy\BossFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFrogAttackArea.cpp">
+      <Filter>Script\1_StoryScene\Enemy\BossFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeFrog.cpp">
+      <Filter>Script\1_StoryScene\Enemy\MeleeFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeFrogAction.cpp">
+      <Filter>Script\1_StoryScene\Enemy\RangeFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeFrogState.cpp">
+      <Filter>Script\1_StoryScene\Enemy\RangeFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileManager.cpp">
+      <Filter>Script\1_StoryScene\Enemy\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeFrogAttackArea.cpp">
+      <Filter>Script\1_StoryScene\Enemy\RangeFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="ToxicFloor.cpp">
+      <Filter>Script\1_StoryScene\Enemy\ToxicFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="ToxicManager.cpp">
+      <Filter>Script\1_StoryScene\Enemy\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLookEnemy.cpp">
+      <Filter>Script\1_StoryScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Script\1_StoryScene\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>Script\1_StoryScene\StageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StageInCheck.cpp">
+      <Filter>Script\1_StoryScene\StageManager\StageInCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteInfo.cpp">
+      <Filter>Script\1_StoryScene\NoteManager\NoteInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="BossNetBehaivorTree.cpp">
+      <Filter>Script\1_StoryScene\Enemy\BossFrog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ScriptFactory.h">
+      <Filter>Script\System\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMove.h">
+      <Filter>Script\1_StoryScene\CameraMove</Filter>
+    </ClInclude>
+    <ClInclude Include="UserScriptList.h">
+      <Filter>Script\System\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteManager.h">
+      <Filter>Script\1_StoryScene\NoteManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BTNode.h">
+      <Filter>Script\ETC\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Script\1_StoryScene\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>Script\1_StoryScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Script\1_StoryScene\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSystem.h">
+      <Filter>Script\ETC\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Script\System\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAction.h">
+      <Filter>Script\1_StoryScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMove.h">
+      <Filter>Script\1_StoryScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldFrogAction.h">
+      <Filter>Script\1_StoryScene\Enemy\ShieldFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldFrogState.h">
+      <Filter>Script\1_StoryScene\Enemy\ShieldFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAttack.h">
+      <Filter>Script\1_StoryScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Script\1_StoryScene\Enemy\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Script\1_StoryScene\Enemy\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyEventSystem.h">
+      <Filter>Script\0_LobbyScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcadeNetworkEvent.h">
+      <Filter>Script\2_ArcadeScene\NetworkEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeFrogAction.h">
+      <Filter>Script\1_StoryScene\Enemy\MeleeFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeFrogState.h">
+      <Filter>Script\1_StoryScene\Enemy\MeleeFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldFrogMeleeDetectZone.h">
+      <Filter>Script\1_StoryScene\Enemy\ShieldFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldFrogRangeDetectZone.h">
+      <Filter>Script\1_StoryScene\Enemy\ShieldFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcadePlayer.h">
+      <Filter>Script\2_ArcadeScene\ArcadePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeFrogAttackArea.h">
+      <Filter>Script\1_StoryScene\Enemy\MeleeFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFrogAction.h">
+      <Filter>Script\1_StoryScene\Enemy\BossFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFrogState.h">
+      <Filter>Script\1_StoryScene\Enemy\BossFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFrogAttackArea.h">
+      <Filter>Script\1_StoryScene\Enemy\BossFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeFrog.h">
+      <Filter>Script\1_StoryScene\Enemy\MeleeFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RangeFrogAction.h">
+      <Filter>Script\1_StoryScene\Enemy\RangeFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeFrogState.h">
+      <Filter>Script\1_StoryScene\Enemy\RangeFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileManager.h">
+      <Filter>Script\1_StoryScene\Enemy\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeFrogAttackArea.h">
+      <Filter>Script\1_StoryScene\Enemy\RangeFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="ToxicFloor.h">
+      <Filter>Script\1_StoryScene\Enemy\ToxicFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="ToxicManager.h">
+      <Filter>Script\1_StoryScene\Enemy\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLookEnemy.h">
+      <Filter>Script\1_StoryScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Script\1_StoryScene\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>Script\1_StoryScene\StageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StageInCheck.h">
+      <Filter>Script\1_StoryScene\StageManager\StageInCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteInfo.h">
+      <Filter>Script\1_StoryScene\NoteManager\NoteInfo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hosClient.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="E:\Downloads\icon.ico" />
+  </ItemGroup>
+</Project>

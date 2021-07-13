@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{b76d7358-8d80-4197-86c1-6c904fdf0125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{61efc994-4c95-40bc-b0fe-ca45bd27ef92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{d84fa317-6d20-4251-9dc9-54086c425167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Component">
+      <UniqueIdentifier>{dea924da-f5c9-4137-9093-f7e09238d8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Lobby">
+      <UniqueIdentifier>{73fb3c0d-e714-4517-a076-a9d692282d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\GameRoom">
+      <UniqueIdentifier>{91d1d3c9-31fd-4ed6-b2b8-aeb19d04e249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collider2D">
+      <UniqueIdentifier>{2abfe728-32e3-460a-9151-dbe1677e403d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collider2D\Application">
+      <UniqueIdentifier>{93d13366-f32f-4f32-bd3a-0ecf0020b5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\DB">
+      <UniqueIdentifier>{f015db74-7da9-4fce-bdd9-0e27a9a36503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{a79db7b5-6749-4083-ba70-db69819ee12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Factory">
+      <UniqueIdentifier>{af129d71-af27-4601-a68e-d8cb1b519f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Note">
+      <UniqueIdentifier>{69c375ed-2e93-4c5a-9a4e-8cbd0885a976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Note\Info">
+      <UniqueIdentifier>{39ff109c-2b9d-4eb6-8bc2-e7c2dc5d0966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Object">
+      <UniqueIdentifier>{5dd5fa10-ad03-4d92-afcd-515f22318b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Object\Player">
+      <UniqueIdentifier>{ff50547e-16c4-4f1b-b6e6-1f03cee3b4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Object\BossFrog">
+      <UniqueIdentifier>{5a82894e-65c8-4256-a2a3-4e397f8e4ccf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptFactory.cpp">
+      <Filter>Script\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupCallBackcomponent.cpp">
+      <Filter>System\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Collider2D\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>System\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom.cpp">
+      <Filter>System\GameRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="DB_Connection.cpp">
+      <Filter>System\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteManager.cpp">
+      <Filter>Script\Note</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteInfo.cpp">
+      <Filter>Script\Note\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Script\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMove.cpp">
+      <Filter>Script\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>Script\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCollisionChecker.cpp">
+      <Filter>System\GameRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFrog.cpp">
+      <Filter>Script\Object\BossFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="BossArea.cpp">
+      <Filter>Script\Object\BossFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFrogState.cpp">
+      <Filter>Script\Object\BossFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileManager.cpp">
+      <Filter>Script\Object\BossFrog</Filter>
+    </ClCompile>
+    <ClCompile Include="ToxicManager.cpp">
+      <Filter>Script\Object\BossFrog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Collider2D\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptFactory.h">
+      <Filter>Script\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupCallBackcomponent.h">
+      <Filter>System\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>System\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom.h">
+      <Filter>System\GameRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="DB_Connection.h">
+      <Filter>System\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Extern\Packets\PacketDefine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteManager.h">
+      <Filter>Script\Note</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteInfo.h">
+      <Filter>Script\Note\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMove.h">
+      <Filter>Script\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>Script\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCollisionChecker.h">
+      <Filter>System\GameRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFrog.h">
+      <Filter>Script\Object\BossFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="BossArea.h">
+      <Filter>Script\Object\BossFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2D.h">
+      <Filter>Collider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFrogState.h">
+      <Filter>Script\Object\BossFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileManager.h">
+      <Filter>Script\Object\BossFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="ToxicManager.h">
+      <Filter>Script\Object\BossFrog</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Script\Object\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
